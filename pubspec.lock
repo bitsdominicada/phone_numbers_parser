@@ -179,9 +179,11 @@ packages:
   phone_number_metadata:
     dependency: "direct main"
     description:
-      name: phone_number_metadata
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "50039067ef5e9c73b7a7cd1f6ba7345477c7974c"
+      url: "https://github.com/bitsdominicada/dart_phone_metadata.git"
+    source: git
     version: "5.0.4"
   pool:
     dependency: transitive

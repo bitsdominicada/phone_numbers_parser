@@ -209,6 +209,11 @@ void main() {
       expect(format(testNumber), equals('6 89 55 55 5'));
       testNumber = '689555555';
     });
+    test('should format to DO ', () {
+      expect(
+          PhoneNumber(isoCode: IsoCode.DO, nsn: '8092419090').getFormattedNsn(),
+          equals('809-241-9090'));
+    });
   });
 
   group('range', () {
